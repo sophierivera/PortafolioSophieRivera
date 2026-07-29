@@ -15,36 +15,45 @@
   <a href="#" class="nav-mark" data-page="home">&lt;Sophie/&gt;</a>
   <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menú">☰</button>
   <div class="nav-links" id="nav-links">
-    <a href="#" data-page="about">About</a>
+    <a href="#" data-page="about">About me</a>
     <a href="#" data-page="skills">Skills</a>
     <a href="#" data-page="projects">Projects</a>
   </div>
-  <button id="contact-btn" class="btn btn-contact">Contact Me</button>
+  <button id="contact-btn" class="btn btn-contact"><span class="contact-btn-icon">✉</span> Contact Me</button>
 </nav>
 
 <header class="hero page active" id="page-home" data-page="home">
   <div class="hero-inner">
     <div class="hero-main">
       <div class="hero-text">
-        <p class="hero-hi">Hi, I'm</p>
+        <p class="hero-hi">Hola, soy</p>
         <h1>Sophie Rivera</h1>
-        <p class="hero-role">Aspirante a <span class="accent">Ingeniera de Datos</span></p>
-        <p class="hero-tagline">Tus datos, mi código.</p>
+        <p class="hero-role">Desarrolladora de Software <span class="accent">en formación</span></p>
+        <p class="hero-tagline">Aprendiendo, creando y mejorando con cada proyecto.</p>
         <a href="#" data-page="projects" class="hero-link">Ver mi trabajo →</a>
       </div>
       <div class="hero-photo">
         <div class="photo-card photo-card-back"></div>
         <div class="photo-card photo-card-front">
-          <div class="avatar-placeholder">SR</div>
+          <img src="assets/IMG_0237.jpg" alt="Foto principal de Sophie Rivera" class="hero-image">
         </div>
       </div>
     </div>
 
     <div class="mini-about">
-      <div class="mini-about-avatar">SR</div>
-      <p class="mini-about-text">Estudiante de Ingeniería de Sistemas enfocada en datos y desarrollo backend. Me gusta convertir información desordenada en algo útil — y construir las herramientas para hacerlo.</p>
-      <a href="#" data-page="about" class="mini-about-link">Conóceme más →</a>
+      <div class="mini-about-avatar">
+        <img src="assets/iconocorazon.jpg" alt="Foto mini de Sophie Rivera" class="mini-about-image">
+      </div>
+      <p class="mini-about-text">Soy estudiante de Ingeniería de Sistemas apasionada por crear soluciones que combinen desarrollo de software, bases de datos y diseño funcional. Disfruto desarrollar aplicaciones, conectar interfaces con APIs y transformar ideas en proyectos reales mientras sigo aprendiendo nuevas tecnologías.</p>
+      <a href="#" data-page="about" class="mini-about-link">Más sobre mí →</a>
     </div>
+
+    <!-- 👉 Para tu hoja de vida: sube tu PDF a la carpeta assets/ (por ejemplo
+         assets/CV-SophieRivera.pdf) y verifica que el href de abajo apunte
+         a esa misma ruta. -->
+    <a href="assets/LauraSophie.pdf" target="_blank" rel="noopener" class="btn-resume home-resume-btn">
+      <span class="resume-icon">🤍</span> Descargar CV
+    </a>
   </div>
 </header>
 
@@ -53,135 +62,167 @@
   <section id="page-about" class="page section" data-page="about">
     <div class="about-top">
       <div class="about-photo">
-        <div class="avatar-circle">SR</div>
+        <img src="assets/fotoaboutme.png" alt="Foto de Sophie Rivera" class="about-image">
       </div>
       <div class="about-text">
         <h2>About Me</h2>
-        <p>¡Hola! Soy Sophie Rivera, estudiante de décimo semestre de Ingeniería de Sistemas en la Universidad San Buenaventura, en Bogotá. Desde que empecé a programar me llamó la atención una parte del trabajo que muchos evitan: dejar los datos limpios, consistentes y confiables antes de que lleguen a un análisis o una aplicación. Ahí encontré mi enfoque — pipelines ETL con Python.</p>
-        <p>Con el tiempo quise dar un paso más: no solo procesar datos que ya existen, sino construir las herramientas web que los reciben, los organizan y los ponen al servicio de alguien más. Por eso empecé a trabajar con Flask, bases de datos relacionales y arquitecturas CRUD completas.</p>
-        <p>Antes de esto pasé varios años en atención al cliente y ventas, algo que no se aprende programando: buena comunicación, manejo de procesos bajo presión y atención real a lo que la otra persona necesita. Ahora quiero combinar ambas cosas — criterio técnico y sentido de servicio — en una práctica profesional donde pueda aportar desde el primer día.</p>
-
+        <p>¡Hola! Soy Sophie 🤍</p>
+        <p>Soy estudiante de Ingeniería de Sistemas y disfruto crear aplicaciones que resuelvan problemas reales. Me apasiona el desarrollo de software y constantemente busco aprender nuevas tecnologías mientras construyo proyectos que integran frontend, backend y bases de datos.</p>
+        <p>En mi trayectoria académica he trabajado con Java, Kotlin, PHP, MySQL, HTML, CSS y Git, desarrollando aplicaciones web y móviles, implementando APIs y gestionando bases de datos. Cada proyecto ha sido una oportunidad para mejorar mi lógica de programación, fortalecer mis habilidades técnicas y adquirir experiencia práctica.</p>
+        <p>Más allá del código, mi experiencia en atención al cliente me enseñó la importancia de la comunicación, la empatía y el trabajo en equipo. Creo que un buen desarrollador no solo escribe código de calidad, sino que también entiende las necesidades de las personas y trabaja en conjunto para construir mejores soluciones.</p>
+        <p>En este momento, busco realizar mis prácticas profesionales para seguir creciendo como desarrolladora, aportar valor a nuevos proyectos y continuar aprendiendo dentro de un entorno profesional.</p>
+      
         <div class="info-list">
           <div class="info-item"><span class="info-label">Educación</span><span>Ing. de Sistemas · Univ. San Buenaventura</span></div>
           <div class="info-item"><span class="info-label">Ubicación</span><span>Bogotá D.C., Colombia</span></div>
-          <div class="info-item"><span class="info-label">Idiomas</span><span>Español (nativo) · Inglés</span></div>
+          <div class="info-item"><span class="info-label">Idiomas</span><span>Español (nativo) • Inglés (básico)</span></div>
+          <div class="info-item"><span class="info-label">Tecnologías principales</span><span>Java • Kotlin • PHP • MySQL • HTML • CSS • Git • GitHub • Android Studio • Visual Studio Code</span></div>
         </div>
       </div>
     </div>
     <div class="bento-grid">
       <div class="bento-card bento-lilac">
-        <h3>Backend Dev</h3>
-        <p>Con experiencia en Python, Flask y diseño de APIs.</p>
+        <h3>Desarrollo de Software</h3>
+        <p>Desarrollo de aplicaciones web y móviles utilizando Java, Kotlin y PHP, aplicando programación orientada a objetos y buenas prácticas de desarrollo.</p>
       </div>
       <div class="bento-card bento-mint">
-        <h3>Datos & ETL</h3>
-        <p>Limpieza, transformación y análisis de datos con Pandas.</p>
+        <h3>Bases de Datos</h3>
+        <p>Diseño y gestión de bases de datos relacionales con MySQL, implementación de operaciones CRUD e integración con aplicaciones mediante APIs.</p>
       </div>
       <div class="bento-card bento-peach">
-        <h3>Bases de Datos</h3>
-        <p>Modelado relacional y consultas SQL eficientes.</p>
+        <h3>Aprendizaje Continuo</h3>
+        <p>Siempre estoy explorando nuevas tecnologías, desarrollando proyectos personales y fortaleciendo mis habilidades mediante la práctica constante.</p>
       </div>
     </div>
   </section>
 
   <section id="page-skills" class="page section skills-section" data-page="skills">
     <h2 class="center-title">My Tech Stack</h2>
-    <p class="center-sub">Me especializo en construir pipelines de datos y aplicaciones backend, usando Python, SQL, Flask y JavaScript, apoyada en Git para el control de versiones.</p>
+    <p class="center-sub">Tecnologías que utilizo para desarrollar aplicaciones web y móviles, gestionar bases de datos y construir soluciones funcionales.</p>
 
     <div class="tech-row">
-      <div class="tech-item"><span class="tech-icon tech-python">Py</span><span>Python</span></div>
-      <div class="tech-item"><span class="tech-icon tech-sql">SQL</span><span>SQL</span></div>
-      <div class="tech-item"><span class="tech-icon tech-flask">Fl</span><span>Flask</span></div>
-      <div class="tech-item"><span class="tech-icon tech-js">JS</span><span>JavaScript</span></div>
-      <div class="tech-item"><span class="tech-icon tech-html">{}</span><span>HTML/CSS</span></div>
-      <div class="tech-item"><span class="tech-icon tech-git">Git</span><span>Git</span></div>
+      <div class="tech-item"><span class="tech-icon tech-sql">Jv</span><span>Java</span></div>
+      <div class="tech-item"><span class="tech-icon tech-sql">Py</span><span>Python</span></div>
+      <div class="tech-item"><span class="tech-icon tech-sql">SQL</span><span>MySQL</span></div>
+      <div class="tech-item"><span class="tech-icon tech-sql">Kt</span><span>Kotlin</span></div>
+      <div class="tech-item"><span class="tech-icon tech-sql">Fl</span><span>Flask</span></div>
+      <div class="tech-item"><span class="tech-icon tech-sql">JS</span><span>JavaScript</span></div>
+      <div class="tech-item"><span class="tech-icon tech-sql">{}</span><span>HTML/CSS</span></div>
+      <div class="tech-item"><span class="tech-icon tech-sql">Git</span><span>Git</span></div>
     </div>
 
     <h2 class="center-title" style="margin-top: 60px;">What Can I Do</h2>
-    <p class="center-sub">Construyo pipelines de datos confiables y aplicaciones web funcionales, combinando buen diseño de base de datos con interfaces simples y usables.</p>
+    <p class="center-sub">Desarrollo aplicaciones web y móviles, implemento bases de datos relacionales y consumo APIs para crear soluciones funcionales. Me gusta aprender construyendo proyectos que integren diferentes tecnologías.</p>
 
     <div class="bento-grid three-col">
       <div class="bento-card bento-cream">
-        <span class="bento-icon">🧹</span>
-        <h3>Limpieza de Datos</h3>
-        <p>Detección y corrección de nulos, duplicados e inconsistencias en grandes volúmenes de datos.</p>
+        <!-- Para cambiar esta foto: reemplaza el archivo assets/consola.jpg por la imagen que prefieras (mismo nombre, o cambia el src de abajo) -->
+        <div class="bento-image-slot">
+          <img src="assets/consola.jpg" alt="Imagen de Desarrollo Web" class="bento-image">
+        </div>
+        <h3>Desarrollo Web</h3>
+        <p>Desarrollo aplicaciones web utilizando HTML, CSS, JavaScript y PHP, priorizando interfaces funcionales y una buena experiencia de usuario.</p>
       </div>
       <div class="bento-card bento-cream">
-        <span class="bento-icon">🔗</span>
-        <h3>CRUD & Bases de Datos</h3>
-        <p>Sistemas completos de creación, lectura, actualización y borrado sobre datos relacionados.</p>
+        <!-- Para cambiar esta foto: reemplaza el archivo assets/notes1.jpg por la imagen que prefieras (mismo nombre, o cambia el src de abajo) -->
+        <div class="bento-image-slot">
+          <img src="assets/notes1.jpg" alt="Imagen de Bases de Datos" class="bento-image">
+        </div>
+        <h3>Bases de Datos</h3>
+        <p>Diseño e implemento bases de datos relacionales en MySQL, desarrollando operaciones CRUD e integrándolas con aplicaciones mediante APIs.</p>
       </div>
       <div class="bento-card bento-cream">
-        <span class="bento-icon">🚀</span>
-        <h3>Apps con Flask</h3>
-        <p>Aplicaciones backend funcionales, de la idea al producto que alguien más puede usar.</p>
+        <!-- Para cambiar esta foto: reemplaza el archivo assets/compuretro.jpg por la imagen que prefieras (mismo nombre, o cambia el src de abajo) -->
+        <div class="bento-image-slot">
+          <img src="assets/compuretro.jpg" alt="Imagen de Desarrollo de Software" class="bento-image">
+        </div>
+        <h3>Desarrollo de Software</h3>
+        <p>Desarrollo aplicaciones utilizando Java y Kotlin, aplicando programación orientada a objetos, consumo de APIs y buenas prácticas de desarrollo.</p>
       </div>
     </div>
   </section>
 
   <section id="page-projects" class="page section" data-page="projects">
-    <h2 class="center-title">My Projects</h2>
-    <p class="center-sub">Estos son algunos de los proyectos en los que he trabajado, mostrando mis habilidades para crear soluciones funcionales y bien estructuradas.</p>
+    <h2 class="center-title">Featured Projects</h2>
+    <p class="center-sub">Estos son algunos de los proyectos que he desarrollado durante mi formación académica. Cada uno representa un reto diferente que me permitió fortalecer mis habilidades en desarrollo de software, bases de datos e integración de tecnologías.</p>
 
     <div class="projects-grid">
 
-      <article class="project-card">
-        <div class="project-thumb thumb-lilac">🧼</div>
+      <article class="project-card" data-project="pipelinelab">
+        <div class="project-thumb thumb-lilac">
+          <!-- Para poner tu propia foto: sube una imagen a assets/proyectos/ y
+               descomenta la línea de abajo (borra el <span> del emoji si quieres) -->
+        <img src="assets/fondo.jpg" alt="Captura de PipelineLab" class="project-thumb-image">
+        </div>
         <div class="project-body">
           <h3>PipelineLab</h3>
-          <p>App web con Flask que limpia archivos CSV: detecta nulos, duplicados y tipos de dato inconsistentes.</p>
-          <div class="project-tags"><span>Flask</span><span>Pandas</span></div>
-          <a href="https://github.com/sophierivera/pipelinelab" target="_blank" rel="noopener" class="btn btn-project">View Project</a>
+          <p>Aplicación en Python y Flask para limpiar, validar y transformar archivos CSV con enfoque en datos limpios y listos para usar.</p>
+          <div class="project-tags"><span>Python</span><span>Flask</span><span>ETL</span></div>
+          <div class="project-actions">
+            <button type="button" class="btn btn-photos" data-project="pipelinelab">Visualizar</button>
+            <a href="https://github.com/sophierivera/PipelineLab" target="_blank" rel="noopener" class="btn btn-project">Ver repositorio</a>
+          </div>
         </div>
       </article>
 
-      <article class="project-card">
-        <div class="project-thumb thumb-peach">🐾</div>
+      <article class="project-card" data-project="vetcare">
+        <div class="project-thumb thumb-peach">
+         <img src="assets/fondo.jpg" alt="Captura de VetCare" class="project-thumb-image">
+        </div>
         <div class="project-body">
           <h3>VetCare</h3>
-          <p>Sistema de agendamiento de citas veterinarias con CRUD completo sobre una base de datos relacional.</p>
-          <div class="project-tags"><span>Flask</span><span>SQLite</span></div>
-          <a href="https://github.com/sophierivera/vetcare" target="_blank" rel="noopener" class="btn btn-project">View Project</a>
+          <p>Sistema de agendamiento veterinario con CRUD y base de datos relacional, pensado para gestionar citas y usuarios de forma simple.</p>
+          <div class="project-tags"><span>Python</span><span>Flask</span><span>SQLite</span></div>
+          <div class="project-actions">
+            <button type="button" class="btn btn-photos" data-project="vetcare">Visualizar</button>
+            <a href="https://github.com/sophierivera/VetCare" target="_blank" rel="noopener" class="btn btn-project">Ver repositorio</a>
+          </div>
         </div>
       </article>
 
-      <article class="project-card">
-        <div class="project-thumb thumb-mint">📊</div>
+      <article class="project-card" data-project="mobiledataetl">
+        <div class="project-thumb thumb-mint">
+          <img src="assets/fondo.jpg" alt="Captura de MobileDataETL" class="project-thumb-image">
+        </div>
         <div class="project-body">
           <h3>MobileDataETL</h3>
-          <p>Pipeline en Python para extraer, limpiar y transformar datos de movilidad.</p>
-          <div class="project-tags"><span>Python</span><span>ETL</span></div>
-          <a href="https://github.com/sophierivera/MobileDataETL" target="_blank" rel="noopener" class="btn btn-project">View Project</a>
+          <p>Pipeline en Python para extraer, limpiar y transformar datos de movilidad, con enfoque en organización y análisis.</p>
+          <div class="project-tags"><span>Python</span><span>ETL</span><span>Data</span></div>
+          <div class="project-actions">
+            <a href="https://github.com/sophierivera/MobileDataETL" target="_blank" rel="noopener" class="btn btn-project">Ver repositorio</a>
+          </div>
         </div>
       </article>
 
-      <article class="project-card">
-        <div class="project-thumb thumb-blue">⚽</div>
+      <article class="project-card" data-project="limpiezadatabigdata">
+        <div class="project-thumb thumb-lilac">
+          <img src="assets/fondo.jpg" alt="Captura de limpiezaData-Bigdata" class="project-thumb-image">
+        </div>
         <div class="project-body">
-          <h3>ETL-Deportes</h3>
-          <p>Extracción y transformación de datos deportivos, estructurados y listos para consulta.</p>
-          <div class="project-tags"><span>Python</span><span>ETL</span></div>
-          <a href="https://github.com/sophierivera/ETL-Deportes" target="_blank" rel="noopener" class="btn btn-project">View Project</a>
+          <h3>limpiezaData</h3>
+          <p>Procesos de limpieza y preparación de datos para entornos de gran volumen, enfocados en calidad y consistencia.</p>
+          <div class="project-tags"><span>Python</span><span>Big Data</span><span>Cleaning</span></div>
+          <div class="project-actions">
+            <a href="https://github.com/sophierivera/limpiezaData-Bigdata" target="_blank" rel="noopener" class="btn btn-project">Ver repositorio</a>
+          </div>
         </div>
       </article>
 
-      <article class="project-card">
-        <div class="project-thumb thumb-lilac">🗄️</div>
-        <div class="project-body">
-          <h3>limpiezaData-Bigdata</h3>
-          <p>Procesos de limpieza y preparación sobre conjuntos de datos de gran volumen.</p>
-          <div class="project-tags"><span>Python</span><span>Big Data</span></div>
-          <a href="https://github.com/sophierivera/limpiezaData-Bigdata" target="_blank" rel="noopener" class="btn btn-project">View Project</a>
+      <article class="project-card" data-project="hranalyzer">
+        <div class="project-thumb thumb-mint">
+          <img src="assets/fondo.jpg" alt="Captura de HRAnalyzer" class="project-thumb-image">
         </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-thumb thumb-peach">🗂️</div>
         <div class="project-body">
-          <h3>Parcial2_BD</h3>
-          <p>Ejercicio académico de bases de datos con consultas y modelado de datos.</p>
-          <div class="project-tags"><span>Jupyter</span><span>SQL</span></div>
-          <a href="https://github.com/sophierivera/Parcial2_BD" target="_blank" rel="noopener" class="btn btn-project">View Project</a>
+          <h3>HRAnalyzer</h3>
+          <p>Aplicación full stack para visualizar datos y métricas de recursos humanos: frontend en TypeScript y backend en Python trabajando juntos.</p>
+          <div class="project-tags"><span>TypeScript</span><span>Python</span><span>Full Stack</span></div>
+          <div class="project-repo-links">
+            <a href="https://h-ranalyzer-frontend.vercel.app/" target="_blank" rel="noopener" class="btn btn-project btn-repo-half">Visualizar página ↗</a>
+          </div>
+          <div class="project-repo-links">
+            <a href="https://github.com/sophierivera/HRanalyzerFRONTEND" target="_blank" rel="noopener" class="btn btn-project btn-repo-half">Frontend ↗</a>
+            <a href="https://github.com/sophierivera/HRanalyzerBACKEND" target="_blank" rel="noopener" class="btn btn-project btn-repo-half">Backend ↗</a>
+          </div>
         </div>
       </article>
 
@@ -194,7 +235,7 @@
   <div class="footer-grid">
     <div>
       <h3 class="footer-name">Sophie Rivera</h3>
-      <p>Estudiante de Ingeniería de Sistemas apasionada por los datos y el desarrollo backend.</p>
+      <p>Creo que la tecnología tiene sentido cuando resuelve problemas reales. Me gusta aprender construyendo proyectos, explorar nuevas herramientas y mejorar constantemente mi forma de programar.</p>
     </div>
     <div>
       <h4>Quick Links</h4>
@@ -214,11 +255,20 @@
   <p class="footer-copy">© <span id="year"></span> Sophie Rivera. Todos los derechos reservados.</p>
 </footer>
 
+<!-- Modal de fotos por proyecto -->
+<div id="photo-modal-overlay" class="photo-modal-overlay"></div>
+<div id="photo-modal" class="photo-modal">
+  <button id="photo-modal-close" class="contact-close" aria-label="Cerrar">✕</button>
+  <h3 id="photo-modal-title">Proyecto</h3>
+  <div id="photo-modal-gallery" class="photo-modal-gallery"></div>
+</div>
+
 <!-- Panel de contacto lateral -->
 <div id="contact-overlay" class="contact-overlay"></div>
 <aside id="contact-panel" class="contact-panel">
   <button id="contact-close" class="contact-close" aria-label="Cerrar">✕</button>
-  <h2>Get in Touch</h2>
+  <h2>Contáctame</h2>
+  <p class="contact-subtitle">Aquí puedes encontrarme. 🌸</p>
   <div class="contact-row">
     <span class="contact-icon">✉</span>
     <a href="mailto:sophie6river@hotmail.com">sophie6river@hotmail.com</a>
@@ -228,10 +278,24 @@
     <span>Bogotá D.C., Colombia</span>
   </div>
   <h4>Social Media</h4>
-  <div class="contact-social">
-    <a href="https://github.com/sophierivera" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
-    <a href="https://www.linkedin.com/in/laura-rivera-96341b300/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+  <div class="contact-links">
+    <a href="https://www.linkedin.com/in/laura-rivera-96341b300/" target="_blank" rel="noopener" class="contact-link-row">
+      <span class="contact-icon">in</span>
+      <span class="contact-link-label">LinkedIn</span>
+      <span class="contact-link-arrow">↗</span>
+    </a>
+    <a href="https://github.com/sophierivera" target="_blank" rel="noopener" class="contact-link-row">
+      <span class="contact-icon">GH</span>
+      <span class="contact-link-label">GitHub</span>
+      <span class="contact-link-arrow">↗</span>
+    </a>
   </div>
+
+  <h4>Hoja de Vida</h4>
+
+  <a href="assets/LauraSophie.pdf" target="_blank" rel="noopener" class="btn-resume">
+    <span class="resume-icon">🤍</span> Descargar CV
+  </a>
 </aside>
 
 <script src="script.js"></script>
